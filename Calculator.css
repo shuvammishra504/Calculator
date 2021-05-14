@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.number-key{
+    height: 50px;
+    border: 1px solid black;
+}
