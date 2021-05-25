@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20% 20% auto ;
+    grid-template-areas: 
+    "k1 k2 k3"
+    "k4 k5 k5"
+    "k6 k5 k5";
+}
+
+.key{
+    height: 50px;
+}
+
+.k1{
+    grid-area: k1;
+    background: red;
+}
+
+.k2{
+    grid-area: k2;
+    background: green;
+}
+
+.k3{
+    grid-area: k3;
+    background: greenyellow;
+}
+
+.k4{
+    grid-area: k4;
+    background: grey;
+}
+
+.k5{
+    grid-area: k5;
+    background:hotpink;
+}
+
+.k6{
+    grid-area: k6;
+    background: royalblue;
+}
+
+.video{
+    height: 100vh;
+}
