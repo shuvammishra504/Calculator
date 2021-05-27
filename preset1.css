@@ -157,8 +157,15 @@ header{
     position: relative;
 }
 
-.projects-text p{
+.card1-link{
     text-decoration: none;
+}
+
+.card-cont1:hover + .projects-text p{
+    text-decoration: underline;
+}
+
+.projects-text p, .projects-text h3{
     color: black;
 }
 
